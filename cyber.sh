@@ -426,6 +426,8 @@ function package() {
         tar
         coreutils
         pipx
+        python3
+        pip3
     )
 
     for program in "${programs[@]}"; do
